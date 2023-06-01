@@ -17,6 +17,6 @@ fn main() {
 Pour créer notre fonction revoyons comment elle se calcule. La suite de Fibonnaci se calcule en additionnant les deux termes précédant et est défini en fonction de 
 n de la façcon suivante :
 ```math
-$f_{n} = {n-1} + {n-2}$
+$f_{n}$ = {n-1}$ + {n-2}$
 ```
 
