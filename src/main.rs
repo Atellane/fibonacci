@@ -30,7 +30,7 @@ fn suite_de_fibonacci(nombre_de_terme_a_calculer: i32) -> () {
             nombre0 = nombre1;
             nombre1 = suivant;
         }
-        i = i + 1;
+        i += 1;
         if i == nombre_de_terme_a_calculer {
             println!("le nombre n°{nombre_de_terme_a_calculer} f({indice_instance_de_la_suite}) est {suivant} !");
         }
