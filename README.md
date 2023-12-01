@@ -93,3 +93,4 @@ fn suite_de_fibonacci(nombre_de_terme_a_calculer: u64) -> () {
 ```
 Le 2er termes étant égaux à 1, on assigne le 1er terme à `i` car comme ça cela exécute 0+1 pour le 2e terme et non 1+1. si `i` est égal à `nombre_de_terme_a_calculer` 
 c'est qu'on à atteint le terme à calculer et qu'on peut l'afficher.
+[^1]: une variable qui ombrage une variable porte le même nom qu'une ancienne variable et la remplacera dans la portée interne
