@@ -58,14 +58,28 @@ n de la façon suivante :
 ```math
 f_{n} = f_{n-1} + f_{n-2}
 ```
-
-
-```math
 On vas donc créer une fonction tel que :
-f_{n-2} initialisé à 1 au début pour correspondre à f_{0} est représenté par la varible "nombre0", 
-f_{n-1} initialisé à 1 au début pour correspondre à f_{1} est représenté par la variable "nombre1" et
-f_{n} est représenté par la variable `suivant`.
+```math
+f_{n-2}
 ```
+initialisé à 1 au début pour correspondre à 
+```math
+f_{0}
+```
+est représenté par la varible "nombre0", 
+```math
+f_{n-1}
+```
+initialisé à 1 au début pour correspondre à
+```math
+f_{1}
+```
+est représenté par la variable "nombre1" et
+```math
+f_{n}
+```
+est représenté par la variable `suivant`.
+
 Soit `i` la variable représentant le numéro du terme qu'on calcule actuellement et soit `nombre_de_terme_a_calculer` :
 ```Rust
 fn suite_de_fibonacci(nombre_de_terme_a_calculer: u64) -> () {
