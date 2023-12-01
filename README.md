@@ -12,7 +12,7 @@ fn main() {
 ```
 `std` correspond à la *biliothèque standard*, `io` à la crate *input/output* et `stdin` à l'entrée standard permettant de demander des valeurs.
 ## récupération du terme à calculer
-Commençons par demander une valeur correspondant aux terme de la suite de fibonnacci à calculer :
+Commençons par demander une valeur correspondant au terme de la suite de fibonnacci à calculer :
 ```Rust
 use std::io::stdin;
 
