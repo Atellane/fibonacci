@@ -66,7 +66,7 @@ initialisé à 1 au début pour correspondre à
 ```math
 f_{0}
 ```
-est représenté par la varible "nombre0", 
+est représenté par la varible `nombre0`, 
 ```math
 f_{n-1}
 ```
@@ -74,7 +74,7 @@ initialisé à 1 au début pour correspondre à
 ```math
 f_{1}
 ```
-est représenté par la variable "nombre1" et
+est représenté par la variable `nombre1` et
 ```math
 f_{n}
 ```
